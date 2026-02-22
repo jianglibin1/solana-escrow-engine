@@ -1,0 +1,20 @@
+[package]
+name = "escrow-engine"
+version = "0.1.0"
+description = "On-chain escrow engine - a Web2 escrow backend rebuilt as a Solana program"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "escrow_engine"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = "0.30.1"
+anchor-spl = "0.30.1"
