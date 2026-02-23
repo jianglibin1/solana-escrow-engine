@@ -174,7 +174,7 @@ Funded ──auto_release (after deadline)──▶ Released
 
 - Rust 1.79+ (`rustup install stable`)
 - Solana CLI 1.18+ (`solana --version`)
-- Anchor CLI 0.30.1 (`anchor --version`)
+- Anchor CLI 0.31.1 (`anchor --version`)
 - Node.js 18+ (`node --version`)
 
 ### Build
@@ -276,10 +276,8 @@ npx ts-node app/src/cli.ts dispute -i 1 -d <DEPOSITOR_PUBKEY> --reason "Service 
 
 | Action | Transaction |
 |--------|-------------|
-| Deploy | `TBD` |
-| Initialize Escrow | `TBD` |
-| Fund Escrow | `TBD` |
-| Release Funds | `TBD` |
+| Deploy | [`378pFo7Z...`](https://explorer.solana.com/tx/378pFo7ZgjiKYKrY7iciQkMKmrftwnHLb8rYZ3Fu9QN19mSkpnLBuKBrcrFQVdXAmw4sbLBPGEJzRNsy6N8sqAEN?cluster=devnet) |
+| Program | [`7Qu9af8F...`](https://explorer.solana.com/address/7Qu9af8FYpL4ULHYADkRK3W3c3HjCr8ZtcShXxtoJXhf?cluster=devnet) |
 
 ## Design Tradeoffs
 
