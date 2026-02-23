@@ -1,15 +1,17 @@
+[toolchain]
+
 [features]
-seeds = false
+resolution = true
 skip-lint = false
 
 [programs.devnet]
-escrow_engine = "EscW1Ch4iN1111111111111111111111111111111111"
+escrow_engine = "7Qu9af8FYpL4ULHYADkRK3W3c3HjCr8ZtcShXxtoJXhf"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "devnet"
+cluster = "Devnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
